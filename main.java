@@ -25,7 +25,7 @@ public class Main {
 
         VendingMachine machine = new VendingMachine(products);
 
-       ChocolateBar chocolateBarResult =  machine.getChocolateBar("Verhoff",5);
+       ChocolateBar chocolateBarResult =  machine.getChocolateBar("С пармезаном",5);
         if (chocolateBarResult != null){
             System.out.println("Вы купили: ");
             System.out.println(chocolateBarResult.displayInfo());
